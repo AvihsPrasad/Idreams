@@ -1,0 +1,119 @@
+.footer-block {
+    background-color: #040404;
+    position: relative;
+}
+.container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
+    max-width: 1175px;
+    margin: 0 auto;
+    padding: 0px;
+}
+.footer-block .footer-line {
+    border-top: 1px solid #ffffff;
+}
+
+.footer-block .footer-logo img {
+    margin: 46px 0px 31px;
+    width:190px;
+    margin-left: -12px;
+}
+
+.footer-block .footer-logo span {
+    border-top: 2px solid #f84;
+    width: 30px;
+    position: relative;
+    display: inline-block;
+    margin-left: 10px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.footer-block .contact-us .details {
+    margin-right: 120px;
+    float: left;
+}
+.footer-block .contact-us .info a {
+    font-family: montserratbold, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 2;
+    color: #ffffff;
+}
+.footer-block .support h6 {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #ff8844;
+}
+.footer-block .support li {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #ffffff;
+    margin-bottom: 14px;
+}
+.footer-block .sales a {
+    color: #ffffff;
+}
+.footer-block .support li img {
+    margin-right: 12px;
+}
+.footer-block h6:after {
+    border: none;
+    left: 0px;
+}
+h6::after {
+    content: "";
+    position: absolute;
+    border-bottom: 2px solid #ff8824;
+    width: 70px;
+    top: 15px;
+    margin-left: 20px;
+}
+.footer-block .footer-bottom {
+    margin-top: 20px;
+}
+.footer-block .footer-bot-left {
+    align-self: center;
+}
+.list-inline {
+    padding-left: 0;
+    list-style: none;
+}
+.footer-block .footer-bot-left .terms li {
+    margin-right: 40px;
+}
+.footer-block .footer-bot-left .terms a {
+    font-family: montserratmedium, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #ffffff;
+}
+.list-inline-item {
+    display: inline-block;
+}
+.footer-block .social {
+    float: right;
+}
+.footer-block .social li {
+    margin: 0px 10px;
+}
+.footer-block .socialshareicon {
+    width: 32px;
+    height: 31px;
+    display: inline-block;
+}
+.footer-block .linkidenicon {
+    background-image: url(../../assets/imges/in_icon.png);
+    background-repeat: no-repeat;
+}
+.footer-block .fbicon {
+    background-image: url(../../assets/imges/fb_icon.png);
+    background-repeat: no-repeat;
+}
+.footer-block .youttubeicon {
+    background-image: url(../../assets/imges/youtube_icon.png);
+    background-repeat: no-repeat;
+}
+

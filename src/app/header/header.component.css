@@ -1,0 +1,72 @@
+.headerbox{
+    padding: 5px 20px 5px 100px;
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    /* background-color: rgba(1, 1, 1, 0.6); */
+}
+.headerbox .bg-body-tertiary{
+    background-color: transparent !important;
+}
+.headerbox .navbar-brand{
+    margin-right: 60px;
+}
+.nav-item{
+    padding-right: 15px;
+}
+.nav-item a{
+    color: #ffffff !important;
+    font-weight: 600;
+    word-spacing: 4px;
+    font-size: 17px;
+}
+.nav-item a.dropdown-item{
+    color: #000 !important;
+    font-weight: 500;
+    font-size: 17px;
+}
+.headerbox .nav-item .nav-link:hover, .headerbox .nav-item .nav-link.active {
+    border-bottom: 2px solid #ff8844;
+}
+.dropdown-toggle:hover .dropdown-menu {
+    display: block;
+}
+
+/* Dropdown Button */
+/* .dropbtn { */
+    /* background-color: #04AA6D; */
+    /* color: white; */
+    /* padding: 16px; */
+    /* font-size: 16px; */
+    /* border: none; */
+  /* } */
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}

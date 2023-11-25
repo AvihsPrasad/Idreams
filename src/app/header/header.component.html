@@ -1,0 +1,59 @@
+<div class="headerbox">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" routerLink="/">
+                <img src="../../assets/imges/headerlogo.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav align-self-end">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact:
+                            true}">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="/about" routerLinkActive="active" [routerLinkActiveOptions]="{exact:
+                            true}">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <a class="nav-link dropbtn" routerLink="/service" routerLinkActive="active" [routerLinkActiveOptions]="{exact:
+                                true}">
+                            Service
+                        </a>
+                            <!-- <button class="dropbtn">Dropdown</button> -->
+                            <div class="dropdown-content">
+                                <a class="dropdown-item" routerLink="/webdesign">WebSite Development</a>
+                                <a class="dropdown-item" routerLink="/marketing">Digital Marketing</a>
+                                <a class="dropdown-item" routerLink="/cloud">Cloud Service</a>
+                            </div>
+                          </div>
+                    </li>
+                    <!-- <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" routerLink="Service" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Service
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" routerLink="/webdesign">WebSite Development</a></li>
+                            <li><a class="dropdown-item" routerLink="/marketing">Digital Marketing</a></li>
+                            <li><a class="dropdown-item" routerLink="/cloud">Cloud Service</a></li>
+                        </ul>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="/carrer" routerLinkActive="active" [routerLinkActiveOptions]="{exact:
+                            true}">Careers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="/contact" routerLinkActive="active" [routerLinkActiveOptions]="{exact:
+                            true}">Contact US</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>

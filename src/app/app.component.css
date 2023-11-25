@@ -1,0 +1,14 @@
+/* .ios_bg_fix {
+    background-image: url(../assets/imges/headerBanner.jpeg);
+    background-repeat: no-repeat;
+    height: 658px;
+    width: 100%;
+    background-position: top;
+    background-size: cover;
+    position: relative;
+} */
+.mainbox{
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+}

@@ -1,1 +1,136 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+h6 {
+    font-family: montserratbold, sans-serif;
+    font-style: normal;
+    line-height: 1.72;
+    color: #000000;
+    text-transform: uppercase;
+    position: relative;
+    font-weight: 900;
+}
+
+h3,h4 {
+    color: #000;
+    font-family: montserratblack,sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    line-height: 1.4;
+}
+
+li {
+    list-style: none;
+}
+a {
+    color: #262626;
+    text-decoration: none;
+    background-color: transparent;
+}
+dl, ol, ul {
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.testimonial-heading div h6::after {
+    content: "";
+    position: absolute;
+    border-bottom: 2px solid #ff8824;
+    width: 70px;
+    top: 15px;
+    margin-left: 20px;
+}
+
+.btn-primary {
+    color: #212529;
+    background-color: #ff8844;
+    border-color: #ff8844;
+    padding: 18px 30px;
+    margin-left: 0px;
+    font-size: 14px;
+    line-height: 22.5px;
+    min-width: 200px;
+    text-transform: uppercase;
+    border-radius: 3rem;
+    box-shadow: 0px 10px 15px 0 rgba(255, 136, 68, 0.3);
+    color: #fff;
+}
+.btn-primary:hover {
+    background-color: #ff8844;
+    border-color: #ff8844;
+}
+
+.btn-secondary {
+    color: #212529;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    padding: 18px 30px;
+    margin-left: 0px;
+    font-size: 14px;
+    line-height: 22.5px;
+    min-width: 200px;
+    text-transform: uppercase;
+    border-radius: 3rem;
+    box-shadow: 0px 10px 15px 0 rgba(255, 255, 255, 0.3);
+    color: #000;
+}
+
+.btn:hover {
+    opacity: 85%;
+}
+
+.btn-secondary:hover {
+    color: #212529;
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+
+.btn {
+    font-family: montserratbold, sans-serif;
+    font-weight: 600;
+}
+
+.btn {
+    transition: opacity .2s;
+}
+.btn:hover {
+    opacity: 85%;
+}
+.btn-primary-dark {
+    color: #fff;
+    background-color: #992da6;
+    border-color: #992da6;
+    padding: 18px 30px;
+    margin-left: 0px;
+    font-size: 14px;
+    line-height: 22.5px;
+    min-width: 200px;
+    text-transform: uppercase;
+    border-radius: 3rem;
+    box-shadow: 0px 10px 15px 0 rgba(153,45,166,0.3);
+    color: #fff;
+}
+.btn-primary-dark:hover {
+    color: #fff;
+    background-color: #992da6;
+    border-color: #992da6;
+}
+@media only screen and (max-width: 768px) {
+    .headerbox{padding: 0!important;margin-right: 0 !important;}
+    .navbar-toggler,.navbar-collapse{background-color: #ffffff;}
+    .navbar-nav .nav-item a.nav-link{color: #000000 !important;}
+    .digital{top: 0 !important;left: 0;}
+    .digital,.digital p{width: 100% !important;}
+    .digital p{padding-left: 26% !important;}
+    .footer-block{padding-left: 20px;}
+    .footer-block .row{margin: 0 !important;}
+}

@@ -1,0 +1,207 @@
+.wrapper {
+    background-image: url(../../assets/imges/contact.jpeg);
+    background-repeat: no-repeat;
+    height: 658px;
+    width: 100%;
+    background-position: top;
+    background-size: cover;
+    position: absolute;
+}
+
+.wrapper::before{
+    content: "";
+    background-color: rgba(10,10,10,0.72);
+    position: absolute;
+    top: 0;
+    height: 658px;
+    width: 100%;
+    left: 0;
+    z-index: 1;
+}
+.wrapper-container{
+    position: relative;
+    z-index: 9;
+}
+.container-fluid {
+    max-width: 1175px;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.wrapper-container {
+    padding-top: 50px;
+}
+
+.information-block {
+    position: relative;
+    min-height: 608px;
+}
+
+.digital {
+    width: 535px;
+    position: absolute;
+    top: 120px;
+    left: 15px;
+}
+
+.digital h3 {
+    text-transform: uppercase;
+    margin-top: 100px;
+    font-size: 50px;
+    color: #ffffff;
+    font-family: montserratblack, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    line-height: 1.4;
+}
+
+
+.digital p {
+    color: #ffffff;
+    width: 500px;
+    padding-left: 19%;
+    font-size: 18px;
+    position: relative;
+    font-weight: 500;
+    line-height: 1.73;
+}
+
+.digital p::before {
+    content: "";
+    border-top: 2px solid #ff8844;
+    width: 70px;
+    position: absolute;
+    left: 0px;
+    top: 10px;
+}
+
+
+h6 {
+    font-family: montserratbold, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 1.72;
+    color: #000000;
+    text-transform: uppercase;
+    position: relative;
+}
+h6::after {
+    content: "";
+    position: absolute;
+    border-bottom: 2px solid #ff8824;
+    width: 70px;
+    top: 15px;
+    margin-left: 20px;
+}
+/* form block */
+.publishing {
+    margin-bottom: 74px;
+    padding-top: 50px;
+}
+.publishing img {
+    position: absolute;
+    top: 140px;
+    right: 75px;
+}
+.contact-publish img {
+    position: static !important;
+}
+.contact-publish h4 {
+    margin-bottom: 10px !important;
+}
+.contact-publish .contact-message h6 {
+    padding-top: 0px;
+    margin-top: 46px;
+    margin-bottom: 62px;
+}
+.contact-publish .contact-message h6::after {
+    border-bottom: none;
+}
+.form-block .form-group label {
+    font-family: montserratmedium, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: normal;
+    color: #000000;
+    text-transform: lowercase;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+.form-block .form-group .form-control, .form-block .form-group .textbox {
+    border-radius: 0px;
+    background-color: #f5f5f5;
+    border: 0px;
+    height: 42px;
+    width: 100%;
+    font-size: 14px;
+    padding: 0px 10px;
+    color: #262626;
+}
+.form-block .form-group textarea.form-control {
+    border-radius: 4px;
+    height: 100px;
+}
+.form-block button {
+    margin-top: 20px;
+}
+/* 3rd blocak */
+.map-block{
+    background-color: #f4f4f4;
+}
+.contact-card-block {
+    background-color: #f4f4f4;
+    padding-top: 67px;
+    padding-bottom: 45px;
+}   
+.contact-card-block .address-block {
+    background-image: url(../../assets/imges/map_bg.png);
+    background-repeat: no-repeat;
+    height: 572px;
+    padding-top: 7%;
+}
+.contact-card-block .contact-content1.single {
+    margin-left: 32%;
+}
+.contact-card-block .location-left {
+    background-color: #000000;
+}
+.contact-card-block .contact-card-content {
+    padding: 31px 48px 46px 29px;
+    width: 400px;
+}
+.contact-card-block .contact-card-content img:first-child {
+    margin-bottom: 20px;
+}
+.contact-card-block h6 {
+    color: #f48749;
+    margin-bottom: 27px;
+}
+.contact-card-block .location-left ul li, .maps a {
+    color: #ffffff;
+    font-weight: bold;
+    line-height: 1.6;
+}
+.maps a {color: #f48749;}
+.maps a:hover{
+    text-decoration: underline;
+}
+.contact-card-block .contact-card-content ul li {
+    font-size: 15px;
+}
+.contact-card-block .phone-icon {
+    margin-top: 23%;
+}
+.contact-card-block .mail-icon {
+    margin-top: 24%;
+}
+.contact-card-block .contact-card-content img:first-child {
+    margin-bottom: 20px;
+}
+.contact-card-block .contact-btn {
+    width: 400px;
+    text-align: right;
+}
+.contact-card-block .contact-btn .btn {
+    border-radius: 0px;
+    padding: 13px;
+}   

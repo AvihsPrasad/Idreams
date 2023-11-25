@@ -1,0 +1,114 @@
+.wrapper {
+    background-image: url(../../assets/imges/about.jpeg);
+    background-repeat: no-repeat;
+    height: 658px;
+    width: 100%;
+    background-position: top;
+    background-size: cover;
+    position: absolute;
+}
+
+.wrapper::before{
+    content: "";
+    background-color: rgba(10,10,10,0.72);
+    position: absolute;
+    top: 0;
+    height: 658px;
+    width: 100%;
+    left: 0;
+    z-index: 1;
+}
+.wrapper-container{
+    position: relative;
+    z-index: 9;
+}
+.container-fluid {
+    max-width: 1175px;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.wrapper-container {
+    padding-top: 50px;
+}
+
+.information-block {
+    position: relative;
+    min-height: 608px;
+}
+.digital {
+    width: 535px;
+    position: absolute;
+    top: 120px;
+    left: 15px;
+}
+
+.digital h3 {
+    text-transform: uppercase;
+    margin-top: 100px;
+    font-size: 50px;
+    color: #ffffff;
+    font-family: montserratblack, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    line-height: 1.4;
+}
+
+
+.digital p {
+    color: #ffffff;
+    width: 500px;
+    padding-left: 19%;
+    font-size: 18px;
+    position: relative;
+    font-weight: 500;
+    line-height: 1.73;
+}
+.digital p a{color: #ff8844;}
+.digital p::before {
+    content: "";
+    border-top: 2px solid #ff8844;
+    width: 70px;
+    position: absolute;
+    left: 0px;
+    top: 10px;
+}
+.career-block{
+    padding: 40px 0;
+}
+.job-List{
+    margin-top: 30px;
+}
+.job-item{
+    padding: 25px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+}
+.job-title{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.job-type{
+    color: #ff8844;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.job-desc{
+    font-size: 16px;
+    margin-bottom: 10px ;
+}
+.filter{
+    text-align: right;
+}
+.job-exp{
+    font-size: 16px;
+    color: #7b7a79;
+}
+.filter .btn-primary{
+    padding: 10px;
+    min-width: none;
+    border-radius: 0;
+}

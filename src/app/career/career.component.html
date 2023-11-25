@@ -1,0 +1,47 @@
+<div class="wrapper"></div>
+<div class="wrapper-container">
+    <div class="container-fluid">
+        <div class="information-block">
+            <div class="digital">
+                <h3>Careers</h3>
+                <p>To join with SparklexTechnologies please mail your Resume to <a href="mailto: careers@sparklextechnologies.com"> careers@sparklextechnologies.com</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="career-block">
+    <div class="container-fluid">
+        <div class="testimonial">
+            <div class="row testimonial-heading">
+                <div class="col-md-7">
+                    <h4 class="career-text">Join our team!</h4>
+                    <!-- <h6>We Are Different From Others.</h6> -->
+                </div>
+                <div class="col-md-5 filter">
+                    <div class="dropdown">
+                        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+                          Filter
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" (click)="filter('All')">All</a></li>
+                          <li><a class="dropdown-item" (click)="filter('Full Time')">Full Time</a></li>
+                          <li><a class="dropdown-item" (click)="filter('Intership')">Internship</a></li>
+                        </ul>
+                      </div>
+                </div>
+            </div>
+        </div>
+        <span class="badge bg-secondary">{{storted}}</span>
+        <ul class="job-List row">
+            <li *ngFor="let data of jobList">
+                <div *ngIf="storted=='All' || storted == data.type" class="job-item">
+                    <div class="job-title">{{data.title}} <span *ngIf="data.exp" class="job-exp">( {{data.exp}} years )</span></div>
+                    <div class="job-type">{{data.type}}</div>
+                    <p class="job-desc">{{data.desc}}</p>
+                    <p *ngIf="data.date" class="date">Posted on {{data.date}}</p>
+                    <a href="" class="btn btn-outline-info">Apply</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
